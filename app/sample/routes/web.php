@@ -12,6 +12,9 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/', 'App\Http\Controllers\MainController@index');
 
-Route::get('/books', 'App\Http\Controllers\BookController@index');
+Route::get('/', function () {
+
+    return view('welcome');
+});
+Route::get('/main', 'App\Http\Controllers\MainController@index');//'/main'はURL MainControllerのindex

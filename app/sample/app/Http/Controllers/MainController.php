@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class MainController extends Controller
 {
     public function index(){
-        return view('main.index');
+        return view("main.index");//mainの中のindexが返される
     }
 }

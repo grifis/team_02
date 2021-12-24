@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +7,8 @@
   <title>Document</title>
 </head>
 <body>
-  <h1>ようこそ！！</h1>
-  <p>ここを編集していきます！！</p>
-  <a href="/books">ここをクリックしてみてね</a>
+  <h1>
+    java
+  </h1>
 </body>
 </html>
