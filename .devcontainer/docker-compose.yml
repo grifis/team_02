@@ -17,6 +17,7 @@ services:
       - db
 
   db:
+    platform: linux/amd64
     image: laravel1/mysql:1.0
     build: ./db
     container_name: 'laravel1_db'
