@@ -1,1 +1,97 @@
-body{background-color: aqua;}
+header  {
+  height: 100px;
+  background-color: rgb(233, 203, 167);
+  margin-bottom: 60px;
+
+}
+
+.header-container h1 {
+  /* display: inline-block; */
+  padding: 26px 0;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.body-container {
+  display: flex;
+  padding-top: 10px;
+}
+
+.side {
+  display: flex;
+  flex-direction: column;
+  /* float: left;
+  display: block; */
+}
+
+.side button {
+  height: 90px;
+  width: 150px;
+  margin-bottom: 50px;
+  margin-left: 120px;
+  text-align: center;
+
+}
+
+.main {
+  margin: 0 auto;
+}
+
+.fukidashi {
+  position: relative;
+  padding: 20px;
+  background-color: #fff3ad;
+  border-radius: 10px;
+  box-shadow: 6px 6px 0px 0px #c0aa4a;
+  margin-bottom: 25px;
+}
+
+.fukidashi::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  left: 27px;
+  bottom: -18px;
+  border-top: 15px solid #c0aa4a;
+  border-right: 15px solid transparent;
+  border-left: 15px solid transparent;
+}
+
+
+form {
+  display: flex;
+  height: 100px;
+  width: 320px;
+}
+
+form p {
+  margin: 0 15px;
+  height: 100px;
+  line-height: 100px;
+}
+
+input [type="number"] {
+  width: 200px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/* input [type=value="決定"] {
+  width: 200px;
+} */
+
+.result {
+  margin-top: 100px;
+  width: 400px;
+  height: 170px;
+  border: solid black  5px;
+  text-align: center;
+}
+
+.result p {
+  padding-top: 61px;
+  padding-bottom: 61px;
+  margin: 0;
+}
