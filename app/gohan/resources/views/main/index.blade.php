@@ -18,22 +18,25 @@
   <body>
     <div class="body-container">
       <div class="side">
-
-        <button class="fruit" onclick="getvalue()">果物</button>
-        <button class="vegetables" onclick="getvalue()">野菜</button>
-        <button class="fish" onclick="getvalue()">魚</button>
-        <button class="foods" onclick="getvalue()">食べ物</button>
+        <button class="fruit">果物</button>
+        <button class="vegetables">野菜</button>
+        <button class="fish">魚</button>
+        <button class="foods">食べ物</button>
       </div>
 
       <div class="main">
         <p class="fukidashi">体重を入力してね!!!!</p>
 
+
         <input type="number" id="weight"><p>kg</p><button onClick="return change()">決定</button>  
 
-        <p id="conversion"></p>
+
+        <p>OOOで表すと、、、</p>
+
 
         <div class="result" id="result">
           <p>あなたの体重は、<br><p id="a">x</p>が<p id="b">y</p>個分です。</p>
+
 
         </div>
       </div>
