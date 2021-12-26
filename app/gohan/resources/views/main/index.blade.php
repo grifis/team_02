@@ -26,14 +26,17 @@
 
       <div class="main">
         <p class="fukidashi">体重を入力してね!!!!</p>
-        <form method="POST" name="weight" id="weight" accept-charset="UTF-8"	action="/js/gohan.js">
-          <input type="number"><p>kg</p><input type="submit" value="決定">
-        </form>
+
+
+        <input type="number" id="weight"><p>kg</p><button onClick="return change()">決定</button>  
+
 
         <p>OOOで表すと、、、</p>
 
-        <div class="result">
-          <p>あなたの体重は、<br>OOOがXXX個分です。</p>
+
+        <div class="result" id="result">
+          <p>あなたの体重は、<br><p id="a">x</p>が<p id="b">y</p>個分です。</p>
+
 
         </div>
       </div>
