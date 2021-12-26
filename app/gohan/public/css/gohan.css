@@ -39,6 +39,7 @@ header  {
 
 .input-box {
   display: flex;
+  text-align: center;
 }
 
 .input-box p {
