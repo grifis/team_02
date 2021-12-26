@@ -18,15 +18,15 @@
   <body>
     <div class="body-container">
       <div class="side">
-        <button class="fruit">果物</button>
-        <button class="vegetables">野菜</button>
-        <button class="fish">魚</button>
-        <button class="foods">食べ物</button>
+        <button class="fruit" onclick="getValue()">果物</button>
+        <button class="vegetables" onclick="getValue()">野菜</button>
+        <button class="fish" onclick="getValue()">魚</button>
+        <button class="foods" onclick="getValue()">食べ物</button>
       </div>
 
       <div class="main">
         <p class="fukidashi">体重を入力してね!!!!</p>
-        <form method="POST" name="weight" id="weight" accept-charset="UTF-8"	action="/js/gohan.js">
+        <form name="weight" id="weight" onclick="getValue()" accept-charset="UTF-8"	action="/js/gohan.js">
           <input type="number"><p>kg</p><input type="submit" value="決定">
         </form>
 
