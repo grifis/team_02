@@ -18,21 +18,21 @@
   <body>
     <div class="body-container">
       <div class="side">
-        <button class="fruit">果物</button>
-        <button class="vegetables">野菜</button>
-        <button class="fish">魚</button>
-        <button class="foods">食べ物</button>
+        <button class="fruit" onclick="getvalue()">果物</button>
+        <button class="vegetables" onclick="getvalue()">野菜</button>
+        <button class="fish" onclick="getvalue()">魚</button>
+        <button class="foods" onclick="getvalue()">食べ物</button>
       </div>
 
       <div class="main">
         <p class="fukidashi">体重を入力してね!!!!</p>
         <form method="POST" name="weight" id="weight" accept-charset="UTF-8"	action="/js/gohan.js">
-          <input type="number"><p>kg</p><input type="submit" value="決定">
+          <input type="number"><p>g</p><input onclick="getvalue()" type="submit" value="決定">
         </form>
 
-        <p>OOOで表すと、、、</p>
+        <p id="conversion"></p>
 
-        <div class="result">
+        <div class="result" id="result">
           <p>あなたの体重は、<br>OOOがXXX個分です。</p>
 
         </div>
