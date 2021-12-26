@@ -18,7 +18,9 @@
   <body>
     <div class="body-container">
       <div class="side">
-        <button class="fruit" onClick="return random(fruits);">果物</button>
+
+        <button class="fruit" onClick="return random(floots);">果物</button>
+
         <button class="vegetables" onClick="return random(vegetable);">野菜</button>
         <button class="fish" onClick="return random(fish);">魚</button>
         <button class="foods" onClick="return random(foods);">食べ物</button>
@@ -30,10 +32,12 @@
           <input type="number" id="weight"><p>kg</p><button onClick="return change()">決定</button>  
         </div>
 
+
         <p><span id="food_name">りんご</span>(<span id="food_weight">300</span>g)で表すと、、、</p>
 
         <div class="result" id="result">
           <p>あなたの体重は、<br><span id="a">りんご</span>が<span id="b">OO</span>個分です。</p>
+
         </div>
 
       </div>
@@ -50,5 +54,5 @@
   </footer>
   <!-- <button onClick="return test_func();">ここを押してね</button> -->
 </body>
-<script src="js/gohan.js"></script>
+<script src="js/test.js"></script>
 </html>
