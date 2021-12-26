@@ -5,6 +5,10 @@ header  {
 
 }
 
+body{
+  font-size:22px;
+}
+
 .header-container h1 {
   /* display: inline-block; */
   padding: 26px 0;
@@ -27,6 +31,7 @@ header  {
 .side button {
   height: 90px;
   width: 150px;
+  font-size: 25px;
   margin-bottom: 50px;
   margin-left: 120px;
   text-align: center;
@@ -89,3 +94,62 @@ input [type="number"] {
   padding-bottom: 61px;
   margin: 0;
 }
+
+.btn{
+	text-decoration:none;
+	color:#0f5155;
+	display: block;
+	font-family: 'Caveat', cursive;
+	list-style-type: none;
+	padding:10px;
+	background-color:#ace3e6;
+	border:1px solid #2B8185;
+	margin:10px 0;
+	text-align: center;
+	border-radius: 40px;
+}
+
+.btn:hover{
+	color: #ace3e6;
+	background-color: #66b3b6;
+}
+
+.fruit{
+  color:rgb(130, 55, 55);
+  background-color:rgb(247, 134, 134);
+}
+
+.fruit:hover{
+  color:rgb(244, 203, 203);
+  background-color:rgb(129, 32, 32);
+}
+
+.fish{
+  color:rgb(28, 52, 126);
+  background-color: rgb(171, 190, 248);
+}
+
+.fish:hover{
+  color:rgb(188, 203, 248);
+  background-color: rgb(31, 70, 187);
+}
+
+.foods{
+  color:rgb(243, 131, 32);
+  background-color: rgb(248, 225, 204);
+}
+
+.foods:hover{
+  color:rgb(242, 221, 202);
+  background-color: rgb(235, 142, 60);
+}
+
+.decide{
+  font-size: 17px;
+}
+
+#weight{
+  width: 120px;
+  text-align: center;
+}
+
