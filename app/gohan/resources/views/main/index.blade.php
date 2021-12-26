@@ -10,7 +10,7 @@
 <body>
   <header>
     <div class="header-container">
-      <h1>シュミレーション名</h1>
+      <h1>シミュレーション名</h1>
     </div>
 
   </header>
@@ -50,10 +50,7 @@
   </body>
 
   <footer>
-    <div class="footer-container">
-
-    </div>
-
+  	<p>© All rights reserved by 朝は、ご飯派。</p>
   </footer>
   <!-- <button onClick="return test_func();">ここを押してね</button> -->
 </body>
