@@ -26,7 +26,7 @@
 
       <div class="main">
         <p class="fukidashi">体重を入力してね!!!!</p>
-        <form mathod="POST" name="weight" id="weight" accept-charset="UTF-8"	action="/js/gohan.js">
+        <form method="POST" name="weight" id="weight" accept-charset="UTF-8"	action="/js/gohan.js">
           <input type="number"><p>kg</p><input type="submit" value="決定">
         </form>
 
