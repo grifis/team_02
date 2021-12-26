@@ -20,11 +20,11 @@
       <div class="side">
 
 
-        <button class="fruit" onClick="return random(floots);">果物</button>
+        <button class="fruit btn" onClick="return random(floots);">果物</button>
 
-        <button class="vegetables" onClick="return random(vegetable);">野菜</button>
-        <button class="fish" onClick="return random(fish);">魚</button>
-        <button class="foods" onClick="return random(foods);">食べ物</button>
+        <button class="vegetables btn" onClick="return random(vegetable);">野菜</button>
+        <button class="fish btn" onClick="return random(fish);">魚</button>
+        <button class="foods btn" onClick="return random(foods);">食べ物</button>
       </div>
 
       <div class="main">
