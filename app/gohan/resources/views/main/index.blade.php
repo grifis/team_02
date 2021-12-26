@@ -35,8 +35,8 @@
         <p id="conversion"></p>
 
         <div class="result" id="result">
-          <p>あなたの体重は、<br>OOOがXXX個分です。</p>
-
+          <p id ="copy_target">あなたの体重は、<br>OOOがXXX個分です。</p>
+          <button type = "button" id="copy" onclick="copy()">コピペ</button>
         </div>
       </div>
 
