@@ -18,27 +18,24 @@
   <body>
     <div class="body-container">
       <div class="side">
-        <button class="fruit">果物</button>
-        <button class="vegetables">野菜</button>
-        <button class="fish">魚</button>
-        <button class="foods">食べ物</button>
+        <button class="fruit" onClick="return random(fruits);">果物</button>
+        <button class="vegetables" onClick="return random(vegetable);">野菜</button>
+        <button class="fish" onClick="return random(fish);">魚</button>
+        <button class="foods" onClick="return random(foods);">食べ物</button>
       </div>
 
       <div class="main">
         <p class="fukidashi">体重を入力してね!!!!</p>
+        <div class="input-box">
+          <input type="number" id="weight"><p>kg</p><button onClick="return change()">決定</button>  
+        </div>
 
-
-        <input type="number" id="weight"><p>kg</p><button onClick="return change()">決定</button>  
-
-
-        <p>OOOで表すと、、、</p>
-
+        <p><span id="food_name">りんご</span>(<span id="food_weight">300</span>g)で表すと、、、</p>
 
         <div class="result" id="result">
-          <p>あなたの体重は、<br><p id="a">x</p>が<p id="b">y</p>個分です。</p>
-
-
+          <p>あなたの体重は、<br><span id="a">りんご</span>が<span id="b">OO</span>個分です。</p>
         </div>
+
       </div>
 
     </div>
