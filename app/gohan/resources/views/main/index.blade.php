@@ -28,14 +28,14 @@
       <div class="main">
         <p class="fukidashi">体重を入力してね!!!!</p>
 
-        <form method="POST" name="weight" id="weight" accept-charset="UTF-8"	action="/js/gohan.js">
-          <input type="number"><p>g</p><input onclick="getvalue()" type="submit" value="決定">
-        </form>
+        
+          <input type="number" id="weight"><p>g</p><button onClick="return getvalue(),change()" >決定</button>
+        
 
         <p id="conversion"></p>
 
         <div class="result" id="result">
-          <p>あなたの体重は、<br>OOOがXXX個分です。</p>
+          <p>あなたの体重は、<p id=“a”>x</p>が<p id=“b”>y</p>個分です。</p>
 
         </div>
       </div>
@@ -52,5 +52,5 @@
   </footer>
   <!-- <button onClick="return test_func();">ここを押してね</button> -->
 </body>
-<script src="js/gohan.js"></script>
+<script src="js/test.js"></script>
 </html>
