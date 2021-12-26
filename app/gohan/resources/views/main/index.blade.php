@@ -53,5 +53,5 @@
   </footer>
   <!-- <button onClick="return test_func();">ここを押してね</button> -->
 </body>
-<script src="js/gohan.js"></script>
+<script src="js/gohanz.js"></script>
 </html>
