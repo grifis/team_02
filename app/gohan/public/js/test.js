@@ -32,8 +32,8 @@ function random(food){
 
 
 function copy_paste() {
-  var copyTarget = document.getElementById("copy").innerHTML;
-  var listener = function(e) {
+  const copyTarget = document.getElementById("copy").textContent;
+  const listener = function(e) {
 
     e.clipboardData.setData("text/plain", copyTarget);
     e.preventDefault();
