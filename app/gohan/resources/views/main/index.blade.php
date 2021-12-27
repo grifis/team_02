@@ -10,7 +10,7 @@
 <body>
   <header>
     <div class="header-container">
-      <h1>シミュレーション名</h1>
+      <h1>キティ流!! 体重変換シュミレーター</h1>
     </div>
 
   </header>
