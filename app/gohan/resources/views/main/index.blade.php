@@ -41,6 +41,13 @@
         <div class="result" id="result">
           <p id="copy">あなたの体重は、<br><span id="a">りんご</span>が<span id="b">OO</span>個分です。</p>
           <button id="copy_button" onClick="return copy_paste()">copy</button>
+          <div class="tweet" id="tweet">
+            <button id="twitter-share-button"><i class="fab fa-twitter"></i>ツイートする</button>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </div>
+          <div class="tweet-text" id="tweet-text">
+            
+          </div>
 
         </div>
 
