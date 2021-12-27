@@ -45,6 +45,17 @@ function copy_paste() {
   document.execCommand("copy");
 }
 
+
+document.getElementById("twitter-share-button").onclick = function() {
+  let text = document.getElementById("copy").innerText;
+
+
+  let hashtags = "キティー流!!体重シュミレーター";
+  let url = encodeURIComponent(location.href)
+
+  window.open("https://twitter.com/share?text=" + text + "&hashtags=" + hashtags + "&url=" + url);
+}
+
 const floots = {"りんご": 340, "みかん": 100, "オレンジ": 250, "レモン": 150, "柿": 150, "イチゴ": 8, "バナナ": 150, "キウイ": 120, "メロン": 2000, "マンゴー": 360};
 
 const vegetable = {"キャベツ": 1000, "ほうれん草": 200, "小松菜": 300, "水菜": 120, "白菜": 2000, "ネギ": 200, "レタス": 400, "ブロッコリー": 300, "もやし": 0.8, "大葉": 1};
