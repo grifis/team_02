@@ -30,6 +30,21 @@ function random(food){
     food_weight.innerHTML = random_food_weight;
 }
 
+
+function copy_paste() {
+  var copyTarget = document.getElementById("copy").innerHTML;
+  var listener = function(e) {
+
+    e.clipboardData.setData("text/plain", copyTarget);
+    e.preventDefault();
+    document.removeEventListener("copy", listener);
+  }
+
+  document.addEventListener("copy", listener);
+
+  document.execCommand("copy");
+}
+
 const floots = {"りんご": 340, "みかん": 100, "オレンジ": 250, "レモン": 150, "柿": 150, "イチゴ": 8, "バナナ": 150, "キウイ": 120, "メロン": 2000, "マンゴー": 360};
 
 const vegetable = {"キャベツ": 1000, "ほうれん草": 200, "小松菜": 300, "水菜": 120, "白菜": 2000, "ネギ": 200, "レタス": 400, "ブロッコリー": 300, "もやし": 0.8, "大葉": 1};
