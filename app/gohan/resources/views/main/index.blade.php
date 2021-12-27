@@ -39,7 +39,8 @@
         </p>
 
         <div class="result" id="result">
-          <p>あなたの体重は、<br><span id="a">りんご</span>が<span id="b">OO</span>個分です。</p>
+          <p id="copy">あなたの体重は、<br><span id="a">りんご</span>が<span id="b">OO</span>個分です。</p>
+          <button id="copy_button" onClick="return copy_paste()">コピペ</button>
 
         </div>
 
