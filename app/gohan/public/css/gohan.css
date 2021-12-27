@@ -85,9 +85,12 @@ input [type="number"] {
   margin-top: 100px;
   width: 400px;
   height: 170px;
-  border: solid black  5px;
+  border: double black  5px;
   text-align: center;
+
 }
+
+
 
 .result p {
   padding-top: 61px;
